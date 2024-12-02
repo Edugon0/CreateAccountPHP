@@ -2,7 +2,7 @@
 
 $dbhost = 'localhost';
 $dbusername = 'root';
-$dbPassword = 'Edugon@1904';
+$dbPassword = '********';
 $db = 'registermyuser';
 
 
