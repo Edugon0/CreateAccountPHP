@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+
+    <?php 
+        include_once('conectiondb.php');
+    ?>
+
     <header><h1>Sign Up</h1></header>
-
-
+    
     <main>
-        <form action="" method="get">
+        <form action="conectiondb.php" method="POST">
             <label for="username">username</label>
             <input type="text" name="input_username" id="">
 
@@ -32,7 +36,7 @@
             <input type="checkbox" name="" id="" value="">
             <label for="contrato">Aceito receber informaçõe no meu e-mail</label>
 
-            <input type="submit" value="Register your account">
+            <input type="submit" name="input_submit" value="Register your account">
         </form>
         <button><a href="index.php">Go back to Login</a></button>
     </main>
